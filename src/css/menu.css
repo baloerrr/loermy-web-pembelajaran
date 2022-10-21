@@ -1,0 +1,70 @@
+.judul {
+    margin-top: 4rem;
+    color: #fff;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    color: #fff;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+    font-size: 0.88rem;
+  }
+.card {
+    flex: 0 0 250px;
+    margin: 10px;
+    border: 1px solid #03387e;
+    box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+    background-color: #03387e;
+    border-radius: 10px;
+}
+
+.image-container {
+    flex: 0 0 90px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid  #ccc;
+    border-radius: 10px;
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+}
+  
+.card img {
+    width: 215px;
+    height: 188px;
+    margin: 15px;
+}
+  
+.card .text {
+    padding: 0 20px 20px;
+}
+  
+.card .text  .btn {
+    background: #bae4a4;
+    border: 0;
+    color: black;
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.btn:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(8, 114, 244, 0.6);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+}
+
+.text p {
+    margin: 10px 0;
+}

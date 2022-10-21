@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+
+footer {
+    background: #1e1c41;
+    color: #fff;
+    height: auto;
+    width: 100%;
+    padding-top: 40px;
+    overflow: hidden;
+    font-family: 'Nova Square', cursive;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.footer-content h3 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.footer-content p {
+    max-width: 500px;
+    margin: 10px auto;
+    font-size: 1rem;
+}
+
+.socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials li {
+    margin: 0 10px;
+}
+
+.socials a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.socials a i {
+    font-size: 1.1rem;
+    transition: color .4s ease;
+}
+
+.socials a:hover {
+    color: blueviolet;
+}
+
+.footer-bottom {
+    background: #1e1c41;
+    width: 100%;
+    padding: 1px 0;
+    text-align: center;
+}
